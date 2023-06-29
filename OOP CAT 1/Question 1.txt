@@ -1,0 +1,28 @@
+/* Online Java Compiler and Editor */
+public class Customer{
+    
+    // Class variable declaration
+    String fullName;
+    Date DOB;
+    String address;
+    Date DOR;
+    String nationality;
+    
+    public static void main(String []args){
+    
+    Customer customera = new Customer();
+    customera.fullName = "Mike James";
+    customera.DOB = 04/01/1990;
+    customera.address = "nairobi";
+    customera.DOR = 05/06/2020;
+    customera.nationality = "Kenyan";
+    
+    
+    System.out.println(customera.fullName);
+    System.out.println(customera.DOB);
+    System.out.println(customera.address);
+    System.out.println(customera.DOR);
+    System.out.println(customera.nationality);
+    
+     }
+}
